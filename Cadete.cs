@@ -1,6 +1,6 @@
-namespace Cadete
+namespace Cadetes
 {
-    class Cadetes
+    class Cadete
     {    
         private int idCadete;
         
@@ -10,7 +10,7 @@ namespace Cadete
 
         private string telefonoCadete;
     
-        public Cadetes(int idCadete, string nombreCadete, string direccionCadete, string telefonoCadete)
+        public Cadete(int idCadete, string nombreCadete, string direccionCadete, string telefonoCadete)
         {
             this.idCadete        = idCadete;
             this.nombreCadete    = nombreCadete;

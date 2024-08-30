@@ -1,4 +1,4 @@
-namespace Cliente
+namespace Clientes
 {
     class Cliente
     {
