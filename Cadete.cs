@@ -31,7 +31,7 @@ namespace Cadetes
             Console.WriteLine("\n----------- Datos del Cadete ----------\n");
             Console.WriteLine();
 
-            Console.WriteLine("ID Cadete: {0}", idCadete);
+            Console.WriteLine("ID CADETE: {0}", idCadete);
             Console.WriteLine("Nombre Cadete: {0}", nombreCadete);
             Console.WriteLine("Direccion del Pedido: {0}", direccionCadete);
             Console.WriteLine("Telefono Cadete: {0}", telefonoCadete);
