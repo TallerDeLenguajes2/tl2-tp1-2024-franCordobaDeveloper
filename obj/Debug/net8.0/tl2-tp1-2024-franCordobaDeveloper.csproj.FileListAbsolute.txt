@@ -1,0 +1,15 @@
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\bin\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.exe
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\bin\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.deps.json
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\bin\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.runtimeconfig.json
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\bin\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.dll
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\bin\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.pdb
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.GeneratedMSBuildEditorConfig.editorconfig
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.AssemblyInfoInputs.cache
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.AssemblyInfo.cs
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.csproj.CoreCompileInputs.cache
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.sourcelink.json
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.dll
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\refint\tl2-tp1-2024-franCordobaDeveloper.dll
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.pdb
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\tl2-tp1-2024-franCordobaDeveloper.genruntimeconfig.cache
+C:\universidad\Taller_Lenguaje2\TP01\tl2-tp1-2024-franCordobaDeveloper\obj\Debug\net8.0\ref\tl2-tp1-2024-franCordobaDeveloper.dll
