@@ -4,7 +4,7 @@ using Pedidos;
 
 namespace Cadeterias
 {
-    class Cadeteria
+    public class Cadeteria
     {
         private string nombreCadeteria;
         private string telefonoCadeteria;
@@ -98,6 +98,54 @@ namespace Cadeterias
                 {
                     pedido.MostrarPedido();
                 }
+            }
+        }
+
+        // tp-02
+
+        public void AsignarCadetePedido(int idCadete, int idPedido)
+        {
+            var cadete = listadoCadetes.FirstOrDefault(l => l.IdCadete == idCadete);
+            var pedido = listadoPedidos.FirstOrDefault(l => l.IdPedido == idPedido);
+            if (cadete != null && pedido != null)
+            {
+                pedido.AsignarCadete(cadete);
+            }
+            else
+            {
+                Console.WriteLine("No se encuentra el cliente");
+            }
+
+        }
+
+        public void AsignarCadetePedido(Cadeteria cadeteria)
+        {
+            Console.WriteLine("----- [ seleccione el pedido que desea asignar a un cadete ] -----");
+            
+            for(int i = 0; i < cadeteria.ListadoPedidos.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. ID pedido: {cadeteria.ListadoPedidos[i].IdPedido}");
+            }
+
+            if(int.TryParse(Console.ReadLine(), out int pedidoSeleccionado) && pedidoSeleccionado >= 1 && pedidoSeleccionado <= cadeteria.ListadoPedidos.Count)
+            {
+                Console.WriteLine("----- Seleccione el cadete al que asiganara el pedido -----");
+                for (int i = 0; i < cadeteria.ListadoCadetes.Count; i++)
+                {
+                    Console.WriteLine($"ID Cadete: {cadeteria.ListadoCadetes[i].IdCadete}. CADETE: {cadeteria.ListadoCadetes[i].NombreCadete}");
+                }
+
+                if(int.TryParse(Console.ReadLine(), out int cadeteSeleccionado) && cadeteSeleccionado >= 1 && cadeteSeleccionado <= cadeteria.ListadoCadetes.Count)
+                {
+                    // Asignacion del pedido al cadetes
+                    cadeteria.AsignarCadetePedido(cadeteria.ListadoCadetes[cadeteSeleccionado - 1].IdCadete, cadeteria.ListadoPedidos[pedidoSeleccionado - 1].IdPedido);
+                    Console.WriteLine("----- El pedido se ha asignado correctamente -----");
+
+                } else {
+                    Console.WriteLine("Seleccion del cadete invalida!");
+                }
+            } else {
+                Console.WriteLine("Seleccion del pedido salio mal!");
             }
         }
     }

@@ -1,6 +1,6 @@
 namespace Cadetes
 {
-    class Cadete
+    public class Cadete
     {    
         private int idCadete;
         
@@ -10,12 +10,13 @@ namespace Cadetes
 
         private string telefonoCadete;
     
-        public Cadete(int idCadete, string nombreCadete, string direccionCadete, string telefonoCadete)
+        public Cadete( string nombreCadete, string telefonoCadete,string direccionCadete)
         {
-            this.idCadete        = idCadete;
+            this.IdCadete        = idCadete;
             this.nombreCadete    = nombreCadete;
-            this.direccionCadete = direccionCadete;
             this.telefonoCadete  = telefonoCadete;
+            this.direccionCadete = direccionCadete;
+            
         }
 
         public int IdCadete { get => idCadete; set => idCadete = value;}

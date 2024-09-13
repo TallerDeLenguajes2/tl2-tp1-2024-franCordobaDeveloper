@@ -4,6 +4,6 @@
     {
 
         Console.WriteLine("-----[ SISTEMA DE GESTIÓN DE CADETERIAS ]-----");
-
+        
     }
 }

@@ -13,7 +13,7 @@ namespace Pedidos
 
     }
 
-    class Pedido
+    public class Pedido
     {
         private int idPedido;
         private string nombrePedido;

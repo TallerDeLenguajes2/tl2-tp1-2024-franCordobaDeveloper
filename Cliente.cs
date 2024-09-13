@@ -1,6 +1,6 @@
 namespace Clientes
 {
-    class Cliente
+    public class Cliente
     {
         private string nombreCliente;
 
